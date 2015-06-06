@@ -4,20 +4,155 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Tabbar View Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController id="49e-Tb-3d3" customClass="TabbarViewController" customModule="WarkAround" customModuleProvider="target" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
+                    <connections>
+                        <segue destination="tef-Kz-TgD" kind="relationship" relationship="viewControllers" id="bom-4P-0Li"/>
+                        <segue destination="ByT-Hg-s80" kind="relationship" relationship="viewControllers" id="2Rz-36-efe"/>
+                        <segue destination="Wlb-UP-NcI" kind="relationship" relationship="viewControllers" id="3mA-tf-Wkh"/>
+                    </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="dgb-4s-DTm">
+            <objects>
+                <viewController id="jb5-ow-u3B" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e4O-Ev-V1H"/>
+                        <viewControllerLayoutGuide type="bottom" id="o3v-45-tOS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JI9-uo-ymX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AuI-C4-Vf9">
+                        <barButtonItem key="rightBarButtonItem" image="nav_haguruma.png" id="L4W-JF-gCz"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LsL-oh-F08" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1807" y="-702"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="SLS-Hc-GYa">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tef-Kz-TgD" customClass="OriginalNavigationController" customModule="WarkAround" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="tab_home.png" id="agy-0K-Lwa"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="S7b-wQ-zLF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jb5-ow-u3B" kind="relationship" relationship="rootViewController" id="G4e-aV-839"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G0W-5g-SdX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="995" y="-702"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="znm-r1-Rh7">
+            <objects>
+                <tableViewController id="nT8-de-a1G" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="7zx-qG-PK3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="puL-Jd-79x">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="puL-Jd-79x" id="Ehb-55-WQw">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="nT8-de-a1G" id="9EI-uA-7CS"/>
+                            <outlet property="delegate" destination="nT8-de-a1G" id="bAJ-GI-Xqj"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="SYj-Mv-MCX"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9xq-TE-gfo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1807" y="18"/>
+        </scene>
+        <!--Ranking-->
+        <scene sceneID="OI8-Dz-ny6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ByT-Hg-s80" customClass="OriginalNavigationController" customModule="WarkAround" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Ranking" image="tab_rank.png" id="aET-3K-zSG"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="x9P-LN-YwP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nT8-de-a1G" kind="relationship" relationship="rootViewController" id="ugJ-gd-Q1d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wT7-7F-WR0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="995" y="18"/>
+        </scene>
+        <!--Coupon View Controller-->
+        <scene sceneID="SKr-N2-HUP">
+            <objects>
+                <viewController id="Gcw-Hp-fA1" customClass="CouponViewController" customModule="WarkAround" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="APV-Db-XkZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qgz-xU-LIt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lCh-zB-w3g">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="wqH-z9-1lj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cea-Dn-zvx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1807" y="860"/>
+        </scene>
+        <!--Coupon-->
+        <scene sceneID="xUB-4T-Qu1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Wlb-UP-NcI" customClass="OriginalNavigationController" customModule="WarkAround" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Coupon" image="tab_wallet.png" id="GPh-hS-HSG"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aAS-gt-d2m">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Gcw-Hp-fA1" kind="relationship" relationship="rootViewController" id="dL0-Bp-gPN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ifw-q4-r2M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1001" y="860"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="nav_haguruma.png" width="22" height="22"/>
+        <image name="tab_home.png" width="25" height="25"/>
+        <image name="tab_rank.png" width="25" height="25"/>
+        <image name="tab_wallet.png" width="25" height="25"/>
+    </resources>
 </document>

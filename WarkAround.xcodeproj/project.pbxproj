@@ -8,15 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		471FF9B51B22CD1C00EEAA04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471FF9B41B22CD1C00EEAA04 /* AppDelegate.swift */; };
-		471FF9B71B22CD1C00EEAA04 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471FF9B61B22CD1C00EEAA04 /* FirstViewController.swift */; };
-		471FF9B91B22CD1C00EEAA04 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471FF9B81B22CD1C00EEAA04 /* SecondViewController.swift */; };
 		471FF9BC1B22CD1C00EEAA04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471FF9BA1B22CD1C00EEAA04 /* Main.storyboard */; };
 		471FF9BE1B22CD1C00EEAA04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471FF9BD1B22CD1C00EEAA04 /* Images.xcassets */; };
 		471FF9C11B22CD1C00EEAA04 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 471FF9BF1B22CD1C00EEAA04 /* LaunchScreen.xib */; };
 		471FF9CD1B22CD1D00EEAA04 /* WarkAroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471FF9CC1B22CD1D00EEAA04 /* WarkAroundTests.swift */; };
-		471FF9D71B22D58E00EEAA04 /* mainPageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471FF9D61B22D58E00EEAA04 /* mainPageStoryboard.storyboard */; };
-		471FF9D91B22D5A500EEAA04 /* rankStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471FF9D81B22D5A500EEAA04 /* rankStoryboard.storyboard */; };
-		471FF9DB1B22D61000EEAA04 /* couponStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471FF9DA1B22D61000EEAA04 /* couponStoryboard.storyboard */; };
 		471FF9DD1B22E21400EEAA04 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471FF9DC1B22E21400EEAA04 /* AudioToolbox.framework */; };
 		471FF9DF1B22E21C00EEAA04 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471FF9DE1B22E21C00EEAA04 /* CFNetwork.framework */; };
 		471FF9E11B22E22400EEAA04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471FF9E01B22E22400EEAA04 /* CoreGraphics.framework */; };
@@ -34,6 +29,20 @@
 		471FF9FB1B22E47F00EEAA04 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471FF9F81B22E47F00EEAA04 /* Parse.framework */; };
 		471FF9FC1B22E47F00EEAA04 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471FF9F91B22E47F00EEAA04 /* ParseUI.framework */; };
 		471FF9FE1B22E94E00EEAA04 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471FF9FD1B22E94E00EEAA04 /* TabbarViewController.swift */; };
+		471FFA001B230E4000EEAA04 /* uselogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 471FF9FF1B230E4000EEAA04 /* uselogo.png */; };
+		471FFA061B2317F400EEAA04 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471FFA021B2317F400EEAA04 /* Fabric.framework */; };
+		471FFA071B2317F400EEAA04 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471FFA031B2317F400EEAA04 /* TwitterKit.framework */; };
+		471FFA081B2317F400EEAA04 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 471FFA041B2317F400EEAA04 /* TwitterKitResources.bundle */; };
+		471FFA091B2317F400EEAA04 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471FFA051B2317F400EEAA04 /* TwitterCore.framework */; };
+		471FFA0D1B231B9000EEAA04 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471FFA0C1B231B9000EEAA04 /* HomeViewController.swift */; };
+		471FFA0F1B231BA900EEAA04 /* RankingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471FFA0E1B231BA900EEAA04 /* RankingTableViewController.swift */; };
+		471FFA111B231EB400EEAA04 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 471FFA101B231EB400EEAA04 /* splash.png */; };
+		471FFA131B231F5C00EEAA04 /* OriginalNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471FFA121B231F5C00EEAA04 /* OriginalNavigationController.swift */; };
+		475EC9611B2327DC00B65747 /* nav_haguruma@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 475EC95D1B2327DC00B65747 /* nav_haguruma@2x.png */; };
+		475EC9621B2327DC00B65747 /* tab_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 475EC95E1B2327DC00B65747 /* tab_home@2x.png */; };
+		475EC9631B2327DC00B65747 /* tab_rank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 475EC95F1B2327DC00B65747 /* tab_rank@2x.png */; };
+		475EC9641B2327DC00B65747 /* tab_wallet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 475EC9601B2327DC00B65747 /* tab_wallet@2x.png */; };
+		475EC9661B23287700B65747 /* CouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475EC9651B23287700B65747 /* CouponViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,17 +59,12 @@
 		471FF9AF1B22CD1C00EEAA04 /* WarkAround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarkAround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		471FF9B31B22CD1C00EEAA04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		471FF9B41B22CD1C00EEAA04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		471FF9B61B22CD1C00EEAA04 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		471FF9B81B22CD1C00EEAA04 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		471FF9BB1B22CD1C00EEAA04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		471FF9BD1B22CD1C00EEAA04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		471FF9C01B22CD1C00EEAA04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		471FF9C61B22CD1D00EEAA04 /* WarkAroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarkAroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		471FF9CB1B22CD1D00EEAA04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		471FF9CC1B22CD1D00EEAA04 /* WarkAroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarkAroundTests.swift; sourceTree = "<group>"; };
-		471FF9D61B22D58E00EEAA04 /* mainPageStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = mainPageStoryboard.storyboard; sourceTree = "<group>"; };
-		471FF9D81B22D5A500EEAA04 /* rankStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = rankStoryboard.storyboard; sourceTree = "<group>"; };
-		471FF9DA1B22D61000EEAA04 /* couponStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = couponStoryboard.storyboard; sourceTree = "<group>"; };
 		471FF9DC1B22E21400EEAA04 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		471FF9DE1B22E21C00EEAA04 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		471FF9E01B22E22400EEAA04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -78,6 +82,20 @@
 		471FF9F81B22E47F00EEAA04 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		471FF9F91B22E47F00EEAA04 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		471FF9FD1B22E94E00EEAA04 /* TabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		471FF9FF1B230E4000EEAA04 /* uselogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uselogo.png; sourceTree = "<group>"; };
+		471FFA021B2317F400EEAA04 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		471FFA031B2317F400EEAA04 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		471FFA041B2317F400EEAA04 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		471FFA051B2317F400EEAA04 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		471FFA0C1B231B9000EEAA04 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		471FFA0E1B231BA900EEAA04 /* RankingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingTableViewController.swift; sourceTree = "<group>"; };
+		471FFA101B231EB400EEAA04 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		471FFA121B231F5C00EEAA04 /* OriginalNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginalNavigationController.swift; sourceTree = "<group>"; };
+		475EC95D1B2327DC00B65747 /* nav_haguruma@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_haguruma@2x.png"; sourceTree = "<group>"; };
+		475EC95E1B2327DC00B65747 /* tab_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_home@2x.png"; sourceTree = "<group>"; };
+		475EC95F1B2327DC00B65747 /* tab_rank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_rank@2x.png"; sourceTree = "<group>"; };
+		475EC9601B2327DC00B65747 /* tab_wallet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_wallet@2x.png"; sourceTree = "<group>"; };
+		475EC9651B23287700B65747 /* CouponViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,12 +113,15 @@
 				471FF9EB1B22E2F800EEAA04 /* StoreKit.framework in Frameworks */,
 				471FF9E91B22E2F000EEAA04 /* Security.framework in Frameworks */,
 				471FF9E71B22E2E900EEAA04 /* QuartzCore.framework in Frameworks */,
+				471FFA091B2317F400EEAA04 /* TwitterCore.framework in Frameworks */,
 				471FF9E51B22E2E100EEAA04 /* MobileCoreServices.framework in Frameworks */,
 				471FF9E31B22E2DA00EEAA04 /* CoreLocation.framework in Frameworks */,
 				471FF9E11B22E22400EEAA04 /* CoreGraphics.framework in Frameworks */,
 				471FF9DF1B22E21C00EEAA04 /* CFNetwork.framework in Frameworks */,
 				471FF9DD1B22E21400EEAA04 /* AudioToolbox.framework in Frameworks */,
+				471FFA061B2317F400EEAA04 /* Fabric.framework in Frameworks */,
 				471FF9FA1B22E47F00EEAA04 /* Bolts.framework in Frameworks */,
+				471FFA071B2317F400EEAA04 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +138,10 @@
 		471FF9A61B22CD1C00EEAA04 = {
 			isa = PBXGroup;
 			children = (
+				471FFA021B2317F400EEAA04 /* Fabric.framework */,
+				471FFA031B2317F400EEAA04 /* TwitterKit.framework */,
+				471FFA041B2317F400EEAA04 /* TwitterKitResources.bundle */,
+				471FFA051B2317F400EEAA04 /* TwitterCore.framework */,
 				471FF9F61B22E3AD00EEAA04 /* Frameworks */,
 				471FF9B11B22CD1C00EEAA04 /* WarkAround */,
 				471FF9C91B22CD1D00EEAA04 /* WarkAroundTests */,
@@ -138,15 +163,14 @@
 			children = (
 				471FF9B41B22CD1C00EEAA04 /* AppDelegate.swift */,
 				471FF9FD1B22E94E00EEAA04 /* TabbarViewController.swift */,
-				471FF9B61B22CD1C00EEAA04 /* FirstViewController.swift */,
-				471FF9B81B22CD1C00EEAA04 /* SecondViewController.swift */,
+				471FFA121B231F5C00EEAA04 /* OriginalNavigationController.swift */,
+				471FFA0C1B231B9000EEAA04 /* HomeViewController.swift */,
+				471FFA0E1B231BA900EEAA04 /* RankingTableViewController.swift */,
+				475EC9651B23287700B65747 /* CouponViewController.swift */,
 				471FF9BA1B22CD1C00EEAA04 /* Main.storyboard */,
 				471FF9BD1B22CD1C00EEAA04 /* Images.xcassets */,
 				471FF9BF1B22CD1C00EEAA04 /* LaunchScreen.xib */,
 				471FF9B21B22CD1C00EEAA04 /* Supporting Files */,
-				471FF9D61B22D58E00EEAA04 /* mainPageStoryboard.storyboard */,
-				471FF9D81B22D5A500EEAA04 /* rankStoryboard.storyboard */,
-				471FF9DA1B22D61000EEAA04 /* couponStoryboard.storyboard */,
 			);
 			path = WarkAround;
 			sourceTree = "<group>";
@@ -154,6 +178,12 @@
 		471FF9B21B22CD1C00EEAA04 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				475EC95D1B2327DC00B65747 /* nav_haguruma@2x.png */,
+				475EC95E1B2327DC00B65747 /* tab_home@2x.png */,
+				475EC95F1B2327DC00B65747 /* tab_rank@2x.png */,
+				475EC9601B2327DC00B65747 /* tab_wallet@2x.png */,
+				471FFA101B231EB400EEAA04 /* splash.png */,
+				471FF9FF1B230E4000EEAA04 /* uselogo.png */,
 				471FF9B31B22CD1C00EEAA04 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -210,6 +240,7 @@
 				471FF9AB1B22CD1C00EEAA04 /* Sources */,
 				471FF9AC1B22CD1C00EEAA04 /* Frameworks */,
 				471FF9AD1B22CD1C00EEAA04 /* Resources */,
+				471FFA011B2317D700EEAA04 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -280,12 +311,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				475EC9611B2327DC00B65747 /* nav_haguruma@2x.png in Resources */,
+				471FFA081B2317F400EEAA04 /* TwitterKitResources.bundle in Resources */,
+				471FFA001B230E4000EEAA04 /* uselogo.png in Resources */,
 				471FF9BC1B22CD1C00EEAA04 /* Main.storyboard in Resources */,
 				471FF9C11B22CD1C00EEAA04 /* LaunchScreen.xib in Resources */,
 				471FF9BE1B22CD1C00EEAA04 /* Images.xcassets in Resources */,
-				471FF9D71B22D58E00EEAA04 /* mainPageStoryboard.storyboard in Resources */,
-				471FF9D91B22D5A500EEAA04 /* rankStoryboard.storyboard in Resources */,
-				471FF9DB1B22D61000EEAA04 /* couponStoryboard.storyboard in Resources */,
+				475EC9631B2327DC00B65747 /* tab_rank@2x.png in Resources */,
+				475EC9641B2327DC00B65747 /* tab_wallet@2x.png in Resources */,
+				471FFA111B231EB400EEAA04 /* splash.png in Resources */,
+				475EC9621B2327DC00B65747 /* tab_home@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,15 +333,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		471FFA011B2317D700EEAA04 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 8eb383458de97810d545737f273705083f40fe64 11c68e1d230fc366b7e08344f73bd72ec518e24624823d7ee280ca5b7714be1d";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		471FF9AB1B22CD1C00EEAA04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				471FFA131B231F5C00EEAA04 /* OriginalNavigationController.swift in Sources */,
+				471FFA0F1B231BA900EEAA04 /* RankingTableViewController.swift in Sources */,
+				475EC9661B23287700B65747 /* CouponViewController.swift in Sources */,
 				471FF9FE1B22E94E00EEAA04 /* TabbarViewController.swift in Sources */,
-				471FF9B91B22CD1C00EEAA04 /* SecondViewController.swift in Sources */,
 				471FF9B51B22CD1C00EEAA04 /* AppDelegate.swift in Sources */,
-				471FF9B71B22CD1C00EEAA04 /* FirstViewController.swift in Sources */,
+				471FFA0D1B231B9000EEAA04 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +489,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WarkAround.xcodeproj",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = WarkAround/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -450,6 +504,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WarkAround.xcodeproj",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = WarkAround/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -510,6 +565,7 @@
 				471FF9D21B22CD1D00EEAA04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		471FF9D31B22CD1D00EEAA04 /* Build configuration list for PBXNativeTarget "WarkAroundTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +574,7 @@
 				471FF9D51B22CD1D00EEAA04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

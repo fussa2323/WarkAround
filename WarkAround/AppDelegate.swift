@@ -1,3 +1,4 @@
+
 //
 //  AppDelegate.swift
 //  WarkAround
@@ -10,6 +11,8 @@ import UIKit
 import Parse
 import ParseUI
 import Bolts
+import Fabric
+import TwitterKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -25,6 +28,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Parse.setApplicationId("FJgEhzChBst7nNslracVmzI767EakzVMmmwVYF4L",
             clientKey: "0BasS3GaIJEmjkvAnqeQgiOD9J41yJ1cAdDER5gW")
         
+        //Initialize Fabric
+        Fabric.with([Twitter()])
+        PFTwitterUtils.initializeWithConsumerKey("i6P2RsPXQ0n0z2nxakT0yngH4", consumerSecret: "05psNVVINaFr2Q2XRiyGp2Rxj8hHd3E3QjiHCZ6Pp61JvqCOQH")
         // [Optional] Track statistics around application opens.
         //  PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
         
