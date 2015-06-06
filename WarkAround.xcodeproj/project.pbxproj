@@ -14,6 +14,9 @@
 		471FF9BE1B22CD1C00EEAA04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471FF9BD1B22CD1C00EEAA04 /* Images.xcassets */; };
 		471FF9C11B22CD1C00EEAA04 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 471FF9BF1B22CD1C00EEAA04 /* LaunchScreen.xib */; };
 		471FF9CD1B22CD1D00EEAA04 /* WarkAroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471FF9CC1B22CD1D00EEAA04 /* WarkAroundTests.swift */; };
+		471FF9D71B22D58E00EEAA04 /* mainPageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471FF9D61B22D58E00EEAA04 /* mainPageStoryboard.storyboard */; };
+		471FF9D91B22D5A500EEAA04 /* rankStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471FF9D81B22D5A500EEAA04 /* rankStoryboard.storyboard */; };
+		471FF9DB1B22D61000EEAA04 /* couponStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471FF9DA1B22D61000EEAA04 /* couponStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		471FF9C61B22CD1D00EEAA04 /* WarkAroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarkAroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		471FF9CB1B22CD1D00EEAA04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		471FF9CC1B22CD1D00EEAA04 /* WarkAroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarkAroundTests.swift; sourceTree = "<group>"; };
+		471FF9D61B22D58E00EEAA04 /* mainPageStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = mainPageStoryboard.storyboard; sourceTree = "<group>"; };
+		471FF9D81B22D5A500EEAA04 /* rankStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = rankStoryboard.storyboard; sourceTree = "<group>"; };
+		471FF9DA1B22D61000EEAA04 /* couponStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = couponStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,9 @@
 				471FF9BD1B22CD1C00EEAA04 /* Images.xcassets */,
 				471FF9BF1B22CD1C00EEAA04 /* LaunchScreen.xib */,
 				471FF9B21B22CD1C00EEAA04 /* Supporting Files */,
+				471FF9D61B22D58E00EEAA04 /* mainPageStoryboard.storyboard */,
+				471FF9D81B22D5A500EEAA04 /* rankStoryboard.storyboard */,
+				471FF9DA1B22D61000EEAA04 /* couponStoryboard.storyboard */,
 			);
 			path = WarkAround;
 			sourceTree = "<group>";
@@ -198,6 +207,9 @@
 				471FF9BC1B22CD1C00EEAA04 /* Main.storyboard in Resources */,
 				471FF9C11B22CD1C00EEAA04 /* LaunchScreen.xib in Resources */,
 				471FF9BE1B22CD1C00EEAA04 /* Images.xcassets in Resources */,
+				471FF9D71B22D58E00EEAA04 /* mainPageStoryboard.storyboard in Resources */,
+				471FF9D91B22D5A500EEAA04 /* rankStoryboard.storyboard in Resources */,
+				471FF9DB1B22D61000EEAA04 /* couponStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
