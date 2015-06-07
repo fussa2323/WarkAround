@@ -43,6 +43,23 @@
 		475EC9631B2327DC00B65747 /* tab_rank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 475EC95F1B2327DC00B65747 /* tab_rank@2x.png */; };
 		475EC9641B2327DC00B65747 /* tab_wallet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 475EC9601B2327DC00B65747 /* tab_wallet@2x.png */; };
 		475EC9661B23287700B65747 /* CouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475EC9651B23287700B65747 /* CouponViewController.swift */; };
+		475EC96A1B233A1C00B65747 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 475EC9691B233A1C00B65747 /* background.png */; };
+		475EC96C1B23412900B65747 /* splash2.png in Resources */ = {isa = PBXBuildFile; fileRef = 475EC96B1B23412900B65747 /* splash2.png */; };
+		478AF1441B2358440027F22D /* coupon_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 478AF1431B2358440027F22D /* coupon_1024.png */; };
+		478AF1491B23CBBC0027F22D /* logopng_360.png in Resources */ = {isa = PBXBuildFile; fileRef = 478AF1471B23CBBC0027F22D /* logopng_360.png */; };
+		478AF14A1B23CBBC0027F22D /* rank_360.png in Resources */ = {isa = PBXBuildFile; fileRef = 478AF1481B23CBBC0027F22D /* rank_360.png */; };
+		478AF14C1B23CE550027F22D /* aa.png in Resources */ = {isa = PBXBuildFile; fileRef = 478AF14B1B23CE550027F22D /* aa.png */; };
+		478AF14E1B23D6850027F22D /* stepoints_720.png in Resources */ = {isa = PBXBuildFile; fileRef = 478AF14D1B23D6850027F22D /* stepoints_720.png */; };
+		478AF1501B23D8230027F22D /* fusa.png in Resources */ = {isa = PBXBuildFile; fileRef = 478AF14F1B23D8230027F22D /* fusa.png */; };
+		478AF1521B23F5430027F22D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478AF1511B23F5430027F22D /* WebViewController.swift */; };
+		478AF1541B2403040027F22D /* splash3.png in Resources */ = {isa = PBXBuildFile; fileRef = 478AF1531B2403040027F22D /* splash3.png */; };
+		478AF1561B2404290027F22D /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478AF1551B2404290027F22D /* RankingTableViewCell.swift */; };
+		478AF15A1B24110C0027F22D /* Futura.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 478AF1571B2410460027F22D /* Futura.ttc */; };
+		478AF15B1B2411100027F22D /* STHiti.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 478AF1581B2410460027F22D /* STHiti.ttf */; };
+		478AF15C1B2411140027F22D /* SukhumvitSet.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 478AF1591B2410460027F22D /* SukhumvitSet.ttc */; };
+		478AF1601B242C8E0027F22D /* rank_360-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 478AF15D1B242C8E0027F22D /* rank_360-1@2x.png */; };
+		478AF1611B242C8E0027F22D /* cou_360@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 478AF15E1B242C8E0027F22D /* cou_360@2x.png */; };
+		478AF1621B242C8E0027F22D /* home_360@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 478AF15F1B242C8E0027F22D /* home_360@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +113,23 @@
 		475EC95F1B2327DC00B65747 /* tab_rank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_rank@2x.png"; sourceTree = "<group>"; };
 		475EC9601B2327DC00B65747 /* tab_wallet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_wallet@2x.png"; sourceTree = "<group>"; };
 		475EC9651B23287700B65747 /* CouponViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouponViewController.swift; sourceTree = "<group>"; };
+		475EC9691B233A1C00B65747 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		475EC96B1B23412900B65747 /* splash2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash2.png; sourceTree = "<group>"; };
+		478AF1431B2358440027F22D /* coupon_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coupon_1024.png; sourceTree = "<group>"; };
+		478AF1471B23CBBC0027F22D /* logopng_360.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logopng_360.png; sourceTree = "<group>"; };
+		478AF1481B23CBBC0027F22D /* rank_360.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rank_360.png; sourceTree = "<group>"; };
+		478AF14B1B23CE550027F22D /* aa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa.png; sourceTree = "<group>"; };
+		478AF14D1B23D6850027F22D /* stepoints_720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stepoints_720.png; sourceTree = "<group>"; };
+		478AF14F1B23D8230027F22D /* fusa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fusa.png; sourceTree = "<group>"; };
+		478AF1511B23F5430027F22D /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		478AF1531B2403040027F22D /* splash3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash3.png; sourceTree = "<group>"; };
+		478AF1551B2404290027F22D /* RankingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingTableViewCell.swift; sourceTree = "<group>"; };
+		478AF1571B2410460027F22D /* Futura.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Futura.ttc; sourceTree = "<group>"; };
+		478AF1581B2410460027F22D /* STHiti.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STHiti.ttf; sourceTree = "<group>"; };
+		478AF1591B2410460027F22D /* SukhumvitSet.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = SukhumvitSet.ttc; sourceTree = "<group>"; };
+		478AF15D1B242C8E0027F22D /* rank_360-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rank_360-1@2x.png"; sourceTree = "<group>"; };
+		478AF15E1B242C8E0027F22D /* cou_360@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cou_360@2x.png"; sourceTree = "<group>"; };
+		478AF15F1B242C8E0027F22D /* home_360@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_360@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +172,9 @@
 		471FF9A61B22CD1C00EEAA04 = {
 			isa = PBXGroup;
 			children = (
+				478AF1571B2410460027F22D /* Futura.ttc */,
+				478AF1581B2410460027F22D /* STHiti.ttf */,
+				478AF1591B2410460027F22D /* SukhumvitSet.ttc */,
 				471FFA021B2317F400EEAA04 /* Fabric.framework */,
 				471FFA031B2317F400EEAA04 /* TwitterKit.framework */,
 				471FFA041B2317F400EEAA04 /* TwitterKitResources.bundle */,
@@ -166,7 +203,9 @@
 				471FFA121B231F5C00EEAA04 /* OriginalNavigationController.swift */,
 				471FFA0C1B231B9000EEAA04 /* HomeViewController.swift */,
 				471FFA0E1B231BA900EEAA04 /* RankingTableViewController.swift */,
+				478AF1551B2404290027F22D /* RankingTableViewCell.swift */,
 				475EC9651B23287700B65747 /* CouponViewController.swift */,
+				478AF1511B23F5430027F22D /* WebViewController.swift */,
 				471FF9BA1B22CD1C00EEAA04 /* Main.storyboard */,
 				471FF9BD1B22CD1C00EEAA04 /* Images.xcassets */,
 				471FF9BF1B22CD1C00EEAA04 /* LaunchScreen.xib */,
@@ -178,6 +217,18 @@
 		471FF9B21B22CD1C00EEAA04 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				478AF15D1B242C8E0027F22D /* rank_360-1@2x.png */,
+				478AF15E1B242C8E0027F22D /* cou_360@2x.png */,
+				478AF15F1B242C8E0027F22D /* home_360@2x.png */,
+				478AF14D1B23D6850027F22D /* stepoints_720.png */,
+				478AF14B1B23CE550027F22D /* aa.png */,
+				478AF14F1B23D8230027F22D /* fusa.png */,
+				478AF1431B2358440027F22D /* coupon_1024.png */,
+				478AF1471B23CBBC0027F22D /* logopng_360.png */,
+				478AF1531B2403040027F22D /* splash3.png */,
+				478AF1481B23CBBC0027F22D /* rank_360.png */,
+				475EC96B1B23412900B65747 /* splash2.png */,
+				475EC9691B233A1C00B65747 /* background.png */,
 				475EC95D1B2327DC00B65747 /* nav_haguruma@2x.png */,
 				475EC95E1B2327DC00B65747 /* tab_home@2x.png */,
 				475EC95F1B2327DC00B65747 /* tab_rank@2x.png */,
@@ -311,13 +362,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				478AF15C1B2411140027F22D /* SukhumvitSet.ttc in Resources */,
+				478AF15B1B2411100027F22D /* STHiti.ttf in Resources */,
+				478AF15A1B24110C0027F22D /* Futura.ttc in Resources */,
+				478AF1621B242C8E0027F22D /* home_360@2x.png in Resources */,
 				475EC9611B2327DC00B65747 /* nav_haguruma@2x.png in Resources */,
+				475EC96A1B233A1C00B65747 /* background.png in Resources */,
+				478AF1501B23D8230027F22D /* fusa.png in Resources */,
+				478AF1491B23CBBC0027F22D /* logopng_360.png in Resources */,
+				475EC96C1B23412900B65747 /* splash2.png in Resources */,
+				478AF14A1B23CBBC0027F22D /* rank_360.png in Resources */,
 				471FFA081B2317F400EEAA04 /* TwitterKitResources.bundle in Resources */,
 				471FFA001B230E4000EEAA04 /* uselogo.png in Resources */,
 				471FF9BC1B22CD1C00EEAA04 /* Main.storyboard in Resources */,
+				478AF1541B2403040027F22D /* splash3.png in Resources */,
+				478AF1611B242C8E0027F22D /* cou_360@2x.png in Resources */,
 				471FF9C11B22CD1C00EEAA04 /* LaunchScreen.xib in Resources */,
 				471FF9BE1B22CD1C00EEAA04 /* Images.xcassets in Resources */,
 				475EC9631B2327DC00B65747 /* tab_rank@2x.png in Resources */,
+				478AF14C1B23CE550027F22D /* aa.png in Resources */,
+				478AF14E1B23D6850027F22D /* stepoints_720.png in Resources */,
+				478AF1601B242C8E0027F22D /* rank_360-1@2x.png in Resources */,
+				478AF1441B2358440027F22D /* coupon_1024.png in Resources */,
 				475EC9641B2327DC00B65747 /* tab_wallet@2x.png in Resources */,
 				471FFA111B231EB400EEAA04 /* splash.png in Resources */,
 				475EC9621B2327DC00B65747 /* tab_home@2x.png in Resources */,
@@ -356,10 +422,12 @@
 			files = (
 				471FFA131B231F5C00EEAA04 /* OriginalNavigationController.swift in Sources */,
 				471FFA0F1B231BA900EEAA04 /* RankingTableViewController.swift in Sources */,
+				478AF1561B2404290027F22D /* RankingTableViewCell.swift in Sources */,
 				475EC9661B23287700B65747 /* CouponViewController.swift in Sources */,
 				471FF9FE1B22E94E00EEAA04 /* TabbarViewController.swift in Sources */,
 				471FF9B51B22CD1C00EEAA04 /* AppDelegate.swift in Sources */,
 				471FFA0D1B231B9000EEAA04 /* HomeViewController.swift in Sources */,
+				478AF1521B23F5430027F22D /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

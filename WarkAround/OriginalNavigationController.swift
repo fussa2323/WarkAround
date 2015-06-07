@@ -18,6 +18,9 @@ class OriginalNavigationController: UINavigationController {
             self.navigationBar.tintColor = UIColor.whiteColor()// バーアイテムカラー
             self.navigationBar.barTintColor = mainColor  // バー背景色
             self.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        
+            let image = UIImage(named: "logopng_360.png")
+            navigationItem.titleView = UIImageView(image: image)
         }
         
         override func didReceiveMemoryWarning() {

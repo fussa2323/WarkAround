@@ -12,7 +12,12 @@ class CouponViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+//        self.title = "Coupon"
+        let image = UIImage(named: "cou_360.png")
+        let imageView = UIImageView(image: image)
+        imageView.frame = CGRectMake(0, 0, 180, 20)
+        imageView.sizeThatFits(CGSize(width: 180, height: 20))
+        self.navigationItem.titleView = imageView
         // Do any additional setup after loading the view.
     }
 

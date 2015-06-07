@@ -10,7 +10,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="splash.png" translatesAutoresizingMaskIntoConstraints="NO" id="TNR-sg-5wo">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="splash3.png" translatesAutoresizingMaskIntoConstraints="NO" id="TNR-sg-5wo">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                 </imageView>
             </subviews>
@@ -21,6 +21,6 @@
         </view>
     </objects>
     <resources>
-        <image name="splash.png" width="576" height="1024"/>
+        <image name="splash3.png" width="405" height="720"/>
     </resources>
 </document>
